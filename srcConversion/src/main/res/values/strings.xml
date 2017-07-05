@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Conversion</string>
+    <string name="cl">cl</string>
+    <string name="litre">litre</string>
+    <string name="dl">dl</string>
+    <string name="ml">ml</string>
+</resources>

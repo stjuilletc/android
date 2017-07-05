@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tom.conversion.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-1dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+ 
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="62dp"
+            android:paddingTop="20px">
+
+            <RadioButton
+                android:id="@+id/ml1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/ml" />
+
+            <RadioButton
+                android:id="@+id/cl1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cl" />
+
+
+            <RadioButton
+                android:id="@+id/dl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dl" />
+
+
+            <RadioButton
+                android:id="@+id/litre1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/litre" />
+
+        </RadioGroup>
+
+
+        <RadioGroup
+            android:id="@+id/group2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="196dp"
+            android:paddingTop="180px"
+            android:paddingBottom="80px"
+            >
+
+            <RadioButton
+                android:id="@+id/ml2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/ml" />
+
+            <RadioButton
+                android:id="@+id/cl2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cl" />
+
+
+            <RadioButton
+                android:id="@+id/dl2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dl" />
+
+            <RadioButton
+                android:id="@+id/litre2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/litre" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:onClick="resultat"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="280dp"
+            android:layout_weight="0.07" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
